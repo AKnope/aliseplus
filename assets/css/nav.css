@@ -9,22 +9,17 @@
         position: fixed;
         top: 50px;
         left: 0;
-
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 15px;
-        width: 75%;
+        width: 100%;
         height: 30%;
-        float: right;
     }
 
     .navbar-collapse.collapsing {
-        left: -75%;
+        left: 100%;
         transition: height 0s ease;
     }
 
     .navbar-collapse.show {
-        left: 0;
+        right: 0;
         transition: left 300ms ease-in-out;
     }
 
@@ -35,6 +30,7 @@
       
 }
 nav{
+    margin: 29px 0 0 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -162,15 +158,33 @@ height: 11.09px;
     padding-right: 0;
     padding-left: 0;
     }
+    .right-nav{
+        display: flex;
+        flex-direction: row-reverse !important;
+        margin: 12px 0 0 76px;
+    }
+    .RU {
+        margin: -7px 28px 0 0;
+    }
+    
+    .fb {
+
+        margin: 10.62px 32px 0 25px;
+    }
 }
-.navbar-expand-custom .navbar-toggler {
-    justify-content:end;
-}
+
 @media (min-width: 1024px){
+    .navbar-expand-custom .navbar-toggler {
+        justify-content:end;
+        z-index: 1;
+        margin-top: -182px;
+        
+    }
     .navbar-expand-custom {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: flex-start;
+
     }
     .navbar-expand-custom .navbar-nav {
         flex-direction: row;
@@ -196,4 +210,22 @@ height: 11.09px;
 .gone{
     opacity: 0;
     display: none;
+}
+.mr-custom, .mx-custom {
+    margin-left: auto;
+}
+@media (max-width: 1024px){
+    .navbar-expand-custom .navbar-toggler {
+        justify-content:end;
+        z-index: 1;
+        margin-top: -182px;
+        
+    }
+}
+@media (max-width: 425px)
+{
+    .butn-margin {
+
+        margin-top: -130px !important;
+    }
 }
