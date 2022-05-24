@@ -1,3 +1,184 @@
+.aa{
+    width: 48px;
+height: 24px;
+margin-top: -15px;
+}
+#logo{
+    background-image: url('../assets/img/alisepluslogo.png');
+    width: 327.94px;
+    height: 84.16px;
+    margin: 0px 0 0px 26px; 
+}
+.header{
+    margin: 18px 0 29px 0px;
+    width: 100%;
+}
+.header-right{
+    width: 377.3px;
+    height: 94.27px;
+    float: right;
+    font-family: 'Poppins-black';
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: -143px 49px 0 0;
+}
+.radio{
+    margin: 13px 0 0 0;
+    font-size: 38px;
+    display: flex;
+    flex-direction: row;
+}
+.fm{
+    margin: 2px 0 0 10px;
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+}
+.playbutton{
+    margin: 0 0 0 23px;
+}
+.headermusic{
+    width: 88px;
+    height: 42px;
+    margin: 22px 0 0 19px;
+    color: black;
+}
+p.music{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+}
+@media (max-width:1023px){
+    #logo{
+        width: 256.39px;
+        height: 65.8px;
+        filter: invert(100%);
+    }
+    .header{
+        margin: 18px 0 29px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-right{
+        align-content: center;
+        text-align: center;
+        width: 207px;
+        height: 94.27px;
+        float: right;
+        font-family: 'Poppins-black';
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 200px auto 0 auto;
+    }
+    .radio{
+        margin: 13px 0 26px 0px;
+        font-size: 53px;
+        width: 207px;
+        height: 47.61px;
+    }
+    .fm{
+        margin: 14px 0 0 10px;
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 54px;
+    }
+    .playbutton{
+        margin: 0 0 0 23px;
+        width: 161px;
+        height: 161px;
+    }
+    .headermusic{
+        width: 151px;
+        height: 72px;
+        margin: 22px 0 0 27px;
+        color: black;
+        font-size: 24px;
+    }
+    p.music{
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-weight: 400;
+    }
+}
+@media (max-width:425px){
+    #logo{
+        width: 126.06px;
+        height: 29.27px;
+        filter: invert(100%);
+    }
+    .header{
+        margin: 18px 0 29px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-right{
+        align-content: center;
+        text-align: center;
+        width: 207px;
+        height: 94.27px;
+        float: right;
+        font-family: 'Poppins-black';
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 200px auto 0 auto;
+    }
+    .radio{
+        margin: 13px auto 26px auto;
+        font-size: 31px;
+        width: 120.73px;
+        height: 27.72px;
+        word-spacing: 8px;
+    }
+    .fm{
+        margin: -2px 0 0 8px;
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 54px;
+    }
+    .playbutton{
+        margin: 0 auto 0 auto;
+        width: 94.27px;
+        height: 94.27px;
+    }
+    .headermusic{
+        width: 88px;
+        height: 42px;
+        margin: 22px auto 0 auto;
+        color: black;
+        font-size: 14px;
+    }
+    p.music{
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-weight: 400;
+    }
+}
 .bg-custom{
     background: rgba(179, 173, 215, 0.5);
 }
@@ -15,7 +196,7 @@
         display: flex;
         flex-direction: column-reverse;
     }
-
+    
     .navbar-collapse.collapsing {
         right: 100%;
         transition: height 0s ease;
@@ -66,9 +247,17 @@ transition: 200ms;
     color: black;
     padding: 0rem !important;
     height: 24px;
+    transition: 200ms;
 }
 .nav-link:hover{
     color: black;
+}
+@media (max-width:1023px)
+{
+    .nav-link:hover{
+        color: white;
+    }
+    
 }
 .container {
     width: 100%;
@@ -370,5 +559,11 @@ position: absolute;
     }
     .programm{
         margin: 370px 0 0 -60px;
+    }
+    .boxes{
+        width: 300px;
+    }
+    .right-nav {
+        margin: 14px 0 64px -62px !important;
     }
 }
