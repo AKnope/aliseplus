@@ -91,3 +91,22 @@
         text-align: center;
     }
 }
+.info-text{
+    font-family: 'Poppins-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #000000;
+}
+
+@media (max-width:1023px){
+    .info-text{
+        font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    } 
+}

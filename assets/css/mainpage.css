@@ -9,7 +9,7 @@ body{
 }
 @media (max-width:1440px){
     body{
-        background: url('../img/background_gradient.png');
+        background: url('../img/background_gradient.png') url('../img/background_gradient.png')repeating-radial-gradient(black, transparent 100px);
         overflow-x: hidden;
     }
 }
@@ -588,7 +588,7 @@ margin: auto;
 .apsveikums{
     width: 237.02px;
 height: 64px;
-padding: 20px;
+padding: 43px 10px 20px 40px;
 font-family: 'Poppins-regular';
 font-style: normal;
 font-weight: 400;
@@ -606,7 +606,7 @@ border: 0px;
 .lostandfoundbutton{
     width: 237.02px;
     height: 64px;
-    padding: 20px;
+    padding: 43px 10px 20px 40px;
     font-family: 'Poppins-regular';
     font-style: normal;
     font-weight: 400;
@@ -944,4 +944,9 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
+}
+img.plusicon{
+    width: 15.02px;
+    height: 15.96px;
+    margin: -18px !important;
 }

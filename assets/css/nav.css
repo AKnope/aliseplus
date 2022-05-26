@@ -1,7 +1,7 @@
 .aa{
     width: 48px;
 height: 24px;
-margin-top: -15px;
+margin-top: -1px;
 }
 #logo{
     background-image: url('../assets/img/alisepluslogo.png');
@@ -38,6 +38,8 @@ margin-top: -15px;
     line-height: 54px;
 }
 .playbutton{
+    width: 94px;
+
     margin: 0 0 0 23px;
 }
 .headermusic{
