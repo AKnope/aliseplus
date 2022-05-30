@@ -176,7 +176,7 @@ color: #FFFFFF;
 
 }
 .programm2{
-    width: 201px;
+    width: auto;
     height: 41px;
 font-family: 'Poppins-Regular';
 font-style: normal;
@@ -598,7 +598,19 @@ background: #DFADC6;
 border-radius: 40px;
 text-align: center;
 border: 0px;
+transition: 200ms;
+text-decoration: none;
 }
+.apsveikums:hover{
+filter: invert(100%);
+color: white;
+background-color: black;
+}
+.apsveikums:focus{
+    filter: invert(100%);
+    color: white;
+    background-color: black;
+    }
 .lostandfound{
     width: 930px;
     margin: auto;
@@ -616,7 +628,18 @@ border: 0px;
     border-radius: 40px;
     text-align: center;
     border: 0px;
+    transition: 200ms;
 }
+.lostandfoundbutton:hover{
+    filter: invert(100%);
+    color: white;
+    background-color: black;
+    }
+    .lostandfoundbutton:focus{
+        filter: invert(100%);
+        color: white;
+        background-color: black;
+        }
 .lostandfoundcon{
     width: 928px;
     margin: auto;
@@ -949,4 +972,103 @@ img.plusicon{
     width: 15.02px;
     height: 15.96px;
     margin: -18px !important;
+}
+img.illu3{
+    top: 1348px;
+    position: absolute;
+    width: 282.82px;
+    height: 282.82px;
+    z-index: -1;
+    right: 370px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+@media (max-width:1564px){
+    img.illu3{
+        right: 120px;
+    }
+}
+@media (max-width:1101px){
+    img.illu3{
+        right: 63px;
+    }
+}
+@media (max-width:1023px){
+    img.illu3{
+        right: 40px;
+        top: 1554px;
+    }
+}
+@media (max-width:767px){
+    img.illu3{
+        width: 160.55px;
+        height: 160.55px;
+        right: -7px;
+        top: 1482px;
+    }
+}
+@media (max-width:526px){
+    img.illu3{
+        width: 160.55px;
+        height: 160.55px;
+        right: -7px;
+        top: 1279px;
+    }
+}
+@media (max-width:426px){
+    img.illu3{
+        width: 160.55px;
+        height: 160.55px;
+        right: -7px;
+        top: 1240px;
+    }
+}
+.ill4back{
+    position: relative;
+    z-index: -100;
+
+    width: 367.94px;
+    height: 394.23px;
+    margin-top: 150px;
+    overflow: hidden;
+}
+.boxs2 {
+    left: 111px;
+    top: 2023px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    width: 367.94px;
+    height: 394.23px;
+}
+img.illu4{
+    position: absolute;
+    width: 367.94px;
+    height: 392.23px;
+}
+@media (max-width:1023px){
+    .boxs2{
+        left: -11px;
+        top: 2176px;
+    }
+}
+@media (max-width:767px){
+    img.illu4{
+        position: absolute;
+        width: 208.87px;
+        height: 223.8px;
+    }
+    .boxs2{
+        width: 208.87px;
+height: 223.8px;
+
+left: -55px;
+top: 2735px;
+
+    }
+}
+@media (max-width:526px){
+    .boxs2{
+left: -55px;
+top: 2535px;
+    }
 }

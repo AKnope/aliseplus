@@ -57,6 +57,7 @@ p.music{
     font-family: 'Poppins-regular';
     font-style: normal;
     font-weight: 400;
+    text-align: center;
 }
 @media (max-width:1023px){
     #logo{
@@ -402,8 +403,87 @@ margin: 0 0 0 30px;
         margin: 5px 10px 5px 10px;
     }
 }
+
+
+.homepageru{
+    width: 210px;
+    margin: 0 0 0 30px;
+    }
+    
+    .homepage2ru{
+        width: 130px;
+        margin: 5px 40px 5px 40px;
+    }
+    .birojru{
+        width: 210px;
+    }
+    .biroj2ru{
+        width: 130px;
+        margin: 5px 40px 5px 40px;
+    }
+    .raidiru{
+        width: 164px;
+    }
+    .raidi2ru{
+        width: 84px;
+        margin: 5px 40px 5px 40px;
+    }
+    .parru{
+        width: 129px;
+    }
+    .par2ru{
+        width: 49px;
+        margin: 5px 40px 5px 40px;
+    }
+    .kontactru{
+        width: 165px;
+    }
+    .kontact2ru{
+        width: 85px;
+        margin: 5px 40px 5px 40px;
+    }
+    @media (max-width:1319px){
+        .homepageru{
+            width: 170px;
+            margin: 0 0 0 30px;
+            }
+            
+            .homepage2ru{
+                width: 130px;
+                margin: 5px 20px 5px 20px;
+            }
+            .birojru{
+                width: 170px;
+            }
+            .biroj2ru{
+                width: 130px;
+                margin: 5px 20px 5px 20px;
+            }
+            .raidiru{
+                width: 124px;
+            }
+            .raidi2ru{
+                width: 84px;
+                margin: 5px 20px 5px 20px;
+            }
+            .parru{
+                width: 89px;
+            }
+            .par2ru{
+                width: 49px;
+                margin: 5px 20px 5px 20px;
+            }
+            .kontactru{
+                width: 125px;
+            }
+            .kontact2ru{
+                width: 85px;
+                margin: 5px 20px 5px 20px;
+            }
+    
+    }
 @media (max-width:1023px){
-    .homepage{
+    .homepageru{
         margin: 0 0 0 0px;
         }
         .white-item{

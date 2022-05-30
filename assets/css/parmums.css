@@ -1,5 +1,5 @@
 body{
-    background: url('../assets/img/gradientparmums.png') center;
+    background: url('../img/gradient5.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,7 +9,7 @@ body{
 }
 @media (max-width:1440px){
     body{
-        background: url('../img/background_gradient.png') center;
+        background: url('../img/gradient5.png');
         overflow-x: hidden;
     }
 }
@@ -118,5 +118,89 @@ body{
         width: 126.06px;
         height: 29.27px;
 
+    }
+}
+.boxs3{
+    position: absolute;
+height: 400px;
+width: 527px;
+right: 1px;
+top: 400px;
+z-index: -1;
+}
+.illubox{
+    height: 400px;
+    width: 527px;
+    z-index: -100;
+    overflow: hidden;
+}
+.illu1{
+    overflow-x: hidden;
+    position: relative;
+    width: 123.73px;
+    height: 117.84px;
+    top: -1%;
+    left: 38%;
+    transform: rotate(-45deg);
+}
+.illu2{
+    position: relative;
+    width: 526.6px;
+    height: 216.95px;
+    overflow-x: hidden;
+    top: 37px;
+}
+
+
+@media (max-width:1023px){
+    .boxs3{
+        position: absolute;
+    height: 400px;
+    width: 527px;
+    top: 496px;
+
+    }
+    .illu1{
+        overflow-x: hidden;
+        position: relative;
+        width: 123.73px;
+        height: 117.84px;
+        top: -1%;
+        left: 66%;
+        transform: rotate(-45deg);
+    }
+    .illu2{
+        position: relative;
+        width: 526.6px;
+        height: 216.95px;
+        overflow-x: hidden;
+        top: 37px;
+        right: -28%;
+    }
+}
+@media (max-width:767px){
+    .boxs3{
+        position: absolute;
+    height: 400px;
+    width: 527px;
+    top: 764px;
+
+    }
+    .illu1{
+        overflow-x: hidden;
+        position: relative;
+        width: 84.02px;
+        height: 80.02px;
+        top: -1%;
+        left: 81%;
+        transform: rotate(-45deg);
+    }
+    .illu2{
+        position: relative;
+        width: 357.6px;
+        height: 147.32px;
+        overflow-x: hidden;
+        top: 37px;
+        right: -54%;
     }
 }

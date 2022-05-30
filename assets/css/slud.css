@@ -1,5 +1,20 @@
+body{
+    background: url('../img/gradient55.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    
+}
+@media (max-width:1440px){
+    body{
+        background: url('../img/gradient55.png');
+        overflow-x: hidden;
+    }
+}
 .sludcon{
-    width: 924.71px;
+    width: 769.71px;
 height: 359.33px;
 display: flex;
 flex-direction: row;
@@ -95,4 +110,75 @@ textarea:focus{
         margin: 70px auto auto auto;
 
     }
+}
+.boxs4{
+    position: absolute;
+    width: 386.52px;
+    height: 386.52px;
+    top: 478px;
+    right: 210px;
+}
+.illubox2{
+overflow: hidden;
+width: 386.52px;
+height: 392.52px;
+}
+.illu6{
+position: relative;
+width: 386.52px;
+height: 386.52px;
+}
+@media (max-width:1344px){
+    .boxs4{
+        position: absolute;
+        width: 386.52px;
+        height: 386.52px;
+        top: 478px;
+        right: 110px;
+    }
+}
+@media (max-width:1181px){
+    .boxs4{
+        position: absolute;
+        width: 386.52px;
+        height: 386.52px;
+        top: 478px;
+        right: 0px;
+    }
+}
+@media (max-width:1101px){
+    .boxs4{
+        position: absolute;
+        width: 386.52px;
+        height: 386.52px;
+        top: 478px;
+        right: 0px;
+    }
+}
+@media (max-width:761px){
+    .boxs4{
+        position: absolute;
+        width: 386.52px;
+        height: 386.52px;
+        top: 639px;
+        right: 0px;
+    }
+    .illu6{
+        right: -154px;
+    }
+}
+.button-transition{
+    transition: 200ms;
+    background: #FFFFFF;
+    border-radius: 20px;
+    color: #554F4F;
+    border:0px;
+}
+.button-transition:hover{
+    background: #CEB4F5;
+}
+.button-transition:focus{
+    background: rgba(0, 0, 0, 0);
+    border: 5px solid #CEB4F5;
+    padding: 0px 10px;
 }

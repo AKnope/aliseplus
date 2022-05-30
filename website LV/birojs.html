@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head> 
-<body>
+<body class="body">
     <div class="header">
       
         <tag class="img">
@@ -30,22 +30,22 @@
         <nav class="navbar sticky-top navbar-expand-custom bg-custom">
           <div class="container-fluid">
             <button class="navbar-toggler navbar-toggler-right mx-custom butn-margin" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
-         <img src="../assets/img/burger.png" style="width:32px; height:25px">
+         <img src="../assets/img/burger.png" style="width:32px; height:25px;" onmouseover="this.src='../assets/img/burgerhover.png'" onmouseout="this.src='../assets/img/burger.png'">
         </button>
       
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
               <ul class="navbar-nav mr-custom w-100">
                 <li class="nav-item white-item active homepage firstpage">
-                  <a class="nav-link homepage2" href="#">SĀKUMLAPA</a>
+                  <a class="nav-link homepage2" href="../index.html">SĀKUMLAPA</a>
                 </li>
                 <li class="nav-item white-item aps">
-                  <a class="nav-link aps2" href="#">APSVEIKUMI</a>
+                  <a class="nav-link aps2" href="../website LV/apsveikums.html">APSVEIKUMI</a>
                   <li class="nav-item white-item biroj">
                     <a class="nav-link biroj2" href="../website LV/birojs.html">ATRASTO MANTU BIROJS</a>
                     <li class="nav-item white-item raidi">
-                      <a class="nav-link raidi2" href="#">RAIDĪJUMI</a>
+                      <a class="nav-link raidi2" href="../website LV/raidijumi.html">RAIDĪJUMI</a>
                       <li class="nav-item white-item par">
-                        <a class="nav-link par2" href="#">PAR MUMS</a>
+                        <a class="nav-link par2" href="../website LV/parmums.html">PAR MUMS</a>
                       </li>
                       <li class="nav-item white-item kontact">
                         <a class="nav-link kontact2" href="#">KONTAKTI</a>
@@ -54,8 +54,8 @@
               <div class="right-nav">
                 <a href="#"><img src="../assets/img/facebook_nav.png" class="fb"></a>
                 <div class="rows">
-                  <a class="nav-link LV" href="#">LV</a>
-                  <a class="nav-link RU" href="#">RU</a>
+                  <a class="nav-link LV" href="../website LV/birojs.html">LV</a>
+                  <a class="nav-link RU" href="../website RU/birojs.html">RU</a>
                   <a class="nav-link " href="#"><img src="../assets/img/aA.png" class="aa"></a>
                 </div>
               </div>
@@ -81,7 +81,9 @@
     <div class="birojheader">
         <div class="titles-text2">ATRASTO UN PAZAUDĒTO MANTU BIROJS</div>
         <div class="button">
-            <button class="lostandfoundbutton"><img src="../assets/img/plus.png"style="width: 15.02px;height: 15.96px;">Pievienot sludinājumu</button>
+          <a href="../website LV/pievienotslud.html">
+            <button class="lostandfoundbutton"><img src="../assets/img/plus.png"style="width: 15.02px;height: 15.96px;" class="plusicon">Pievienot sludinājumu</button>
+          </a>
           </div>
     </div>
 
